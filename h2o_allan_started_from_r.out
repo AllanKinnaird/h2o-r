@@ -1,0 +1,211 @@
+09-06 11:42:39.568 127.0.0.1:54321       9304   main      INFO: ----- H2O started  -----
+09-06 11:42:39.631 127.0.0.1:54321       9304   main      INFO: Build git branch: rel-turing
+09-06 11:42:39.631 127.0.0.1:54321       9304   main      INFO: Build git hash: 3b286dea7b719b6ef2c2f5f7728648f2440a1502
+09-06 11:42:39.631 127.0.0.1:54321       9304   main      INFO: Build git describe: jenkins-rel-turing-6
+09-06 11:42:39.631 127.0.0.1:54321       9304   main      INFO: Build project version: 3.10.0.6 (latest version: 3.10.0.6)
+09-06 11:42:39.631 127.0.0.1:54321       9304   main      INFO: Build age: 11 days
+09-06 11:42:39.632 127.0.0.1:54321       9304   main      INFO: Built by: 'jenkins'
+09-06 11:42:39.633 127.0.0.1:54321       9304   main      INFO: Built on: '2016-08-26 11:15:18'
+09-06 11:42:39.633 127.0.0.1:54321       9304   main      INFO: Processed H2O arguments: [-name, H2O_started_from_R_allan_qzd915, -ip, 127.0.0.1, -port, 54321, -ice_root, /var/folders/_8/_ynhlvt94l11k2jtnlcpjgjh0000gp/T//RtmpJqdLQg, -nthreads, 2]
+09-06 11:42:39.633 127.0.0.1:54321       9304   main      INFO: Java availableProcessors: 2
+09-06 11:42:39.633 127.0.0.1:54321       9304   main      INFO: Java heap totalMemory: 123.0 MB
+09-06 11:42:39.633 127.0.0.1:54321       9304   main      INFO: Java heap maxMemory: 1.78 GB
+09-06 11:42:39.633 127.0.0.1:54321       9304   main      INFO: Java version: Java 1.8.0_102 (from Oracle Corporation)
+09-06 11:42:39.634 127.0.0.1:54321       9304   main      INFO: JVM launch parameters: [-ea]
+09-06 11:42:39.634 127.0.0.1:54321       9304   main      INFO: OS version: Mac OS X 10.11.6 (x86_64)
+09-06 11:42:39.634 127.0.0.1:54321       9304   main      INFO: Machine physical memory: 8.00 GB
+09-06 11:42:39.634 127.0.0.1:54321       9304   main      INFO: X-h2o-cluster-id: 1473158553747
+09-06 11:42:39.634 127.0.0.1:54321       9304   main      INFO: User name: 'allan'
+09-06 11:42:39.634 127.0.0.1:54321       9304   main      INFO: IPv6 stack selected: false
+09-06 11:42:39.634 127.0.0.1:54321       9304   main      INFO: Possible IP Address: en1 (en1), fe80:0:0:0:225:ff:fe4f:d4c%en1
+09-06 11:42:39.634 127.0.0.1:54321       9304   main      INFO: Possible IP Address: en1 (en1), 192.168.1.2
+09-06 11:42:39.634 127.0.0.1:54321       9304   main      INFO: Possible IP Address: lo0 (lo0), fe80:0:0:0:0:0:0:1%lo0
+09-06 11:42:39.635 127.0.0.1:54321       9304   main      INFO: Possible IP Address: lo0 (lo0), 0:0:0:0:0:0:0:1
+09-06 11:42:39.635 127.0.0.1:54321       9304   main      INFO: Possible IP Address: lo0 (lo0), 127.0.0.1
+09-06 11:42:39.635 127.0.0.1:54321       9304   main      INFO: Internal communication uses port: 54322
+09-06 11:42:39.635 127.0.0.1:54321       9304   main      INFO: Listening for HTTP and REST traffic on http://127.0.0.1:54321/
+09-06 11:42:39.636 127.0.0.1:54321       9304   main      INFO: H2O cloud name: 'H2O_started_from_R_allan_qzd915' on /127.0.0.1:54321, discovery address /228.170.169.93:58538
+09-06 11:42:39.636 127.0.0.1:54321       9304   main      INFO: If you have trouble connecting, try SSH tunneling from your local machine (e.g., via port 55555):
+09-06 11:42:39.636 127.0.0.1:54321       9304   main      INFO:   1. Open a terminal and run 'ssh -L 55555:localhost:54321 allan@127.0.0.1'
+09-06 11:42:39.636 127.0.0.1:54321       9304   main      INFO:   2. Point your browser to http://localhost:55555
+09-06 11:42:39.637 127.0.0.1:54321       9304   main      INFO: Log dir: '/var/folders/_8/_ynhlvt94l11k2jtnlcpjgjh0000gp/T/RtmpJqdLQg/h2ologs'
+09-06 11:42:39.637 127.0.0.1:54321       9304   main      INFO: Cur dir: '/Users/allan'
+09-06 11:42:39.737 127.0.0.1:54321       9304   main      INFO: HDFS subsystem successfully initialized
+09-06 11:42:39.742 127.0.0.1:54321       9304   main      INFO: S3 subsystem successfully initialized
+09-06 11:42:39.743 127.0.0.1:54321       9304   main      INFO: Flow dir: '/Users/allan/h2oflows'
+09-06 11:42:39.782 127.0.0.1:54321       9304   main      INFO: Cloud of size 1 formed [/127.0.0.1:54321]
+09-06 11:42:39.792 127.0.0.1:54321       9304   main      INFO: Registered parsers: [GUESS, ARFF, XLS, SVMLight, AVRO, CSV]
+09-06 11:42:39.793 127.0.0.1:54321       9304   main      INFO: Registered 0 extensions in: 1000mS
+09-06 11:42:40.300 127.0.0.1:54321       9304   main      INFO: Registered: 128 REST APIs in: 504mS
+09-06 11:42:40.956 127.0.0.1:54321       9304   main      INFO: Registered: 190 schemas in 655ms
+09-06 11:42:40.956 127.0.0.1:54321       9304   main      INFO: 
+09-06 11:42:40.956 127.0.0.1:54321       9304   main      INFO: Open H2O Flow in your web browser: http://127.0.0.1:54321
+09-06 11:42:40.956 127.0.0.1:54321       9304   main      INFO: 
+09-06 11:42:40.984 127.0.0.1:54321       9304   #48658-13 INFO: GET /, parms: {}
+09-06 11:42:41.025 127.0.0.1:54321       9304   #48658-14 INFO: GET /, parms: {}
+09-06 11:42:41.032 127.0.0.1:54321       9304   #48658-15 INFO: GET /, parms: {}
+09-06 11:42:41.079 127.0.0.1:54321       9304   #48658-16 ERRR: Weaver generally only throws if classfiles are not found, e.g. IDE setups running test code from a remote node that is not in the classpath on this node.
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: java.lang.RuntimeException: java.io.IOException: invalid constant type: 18
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: 	at javassist.CtClassType.getClassFile2(CtClassType.java:203)
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: 	at javassist.CtClassType.subtypeOf(CtClassType.java:303)
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: 	at javassist.CtClassType.subtypeOf(CtClassType.java:318)
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: 	at water.Weaver.genIcerClass(Weaver.java:178)
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: 	at water.Weaver.javassistLoadClass(Weaver.java:141)
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: 	at water.Weaver.javassistLoadClass(Weaver.java:125)
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: 	at water.Weaver.genDelegate(Weaver.java:61)
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: 	at water.TypeMap.getIcer(TypeMap.java:190)
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: 	at water.TypeMap.getIcer(TypeMap.java:177)
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: 	at water.Iced.icer(Iced.java:55)
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: 	at water.Iced.writeJSON(Iced.java:65)
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: 	at water.api.schemas3.SchemaV3.writeJSON(SchemaV3.java:63)
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: 	at water.Iced.toJsonString(Iced.java:77)
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: 	at water.api.RequestServer.serveSchema(RequestServer.java:616)
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: 	at water.api.RequestServer.serve(RequestServer.java:396)
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: 	at water.api.RequestServer.doGeneric(RequestServer.java:245)
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: 	at water.api.RequestServer.doGet(RequestServer.java:197)
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:735)
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:503)
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429)
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: 	at java.lang.Thread.run(Thread.java:745)
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: Caused by: java.io.IOException: invalid constant type: 18
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: 	at javassist.bytecode.ConstPool.readOne(ConstPool.java:1090)
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: 	at javassist.bytecode.ConstPool.read(ConstPool.java:1033)
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: 	at javassist.bytecode.ConstPool.<init>(ConstPool.java:149)
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: 	at javassist.bytecode.ClassFile.read(ClassFile.java:764)
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: 	at javassist.bytecode.ClassFile.<init>(ClassFile.java:108)
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: 	at javassist.CtClassType.getClassFile2(CtClassType.java:190)
+09-06 11:42:41.081 127.0.0.1:54321       9304   #48658-16 ERRR: 	... 42 more
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: java.lang.RuntimeException: java.io.IOException: invalid constant type: 18
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: 	at javassist.CtClassType.getClassFile2(CtClassType.java:203)
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: 	at javassist.CtClassType.subtypeOf(CtClassType.java:303)
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: 	at javassist.CtClassType.subtypeOf(CtClassType.java:318)
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: 	at water.Weaver.genIcerClass(Weaver.java:178)
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: 	at water.Weaver.javassistLoadClass(Weaver.java:141)
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: 	at water.Weaver.javassistLoadClass(Weaver.java:125)
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: 	at water.Weaver.genDelegate(Weaver.java:61)
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: 	at water.TypeMap.getIcer(TypeMap.java:190)
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: 	at water.TypeMap.getIcer(TypeMap.java:177)
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: 	at water.Iced.icer(Iced.java:55)
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: 	at water.Iced.writeJSON(Iced.java:65)
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: 	at water.api.schemas3.SchemaV3.writeJSON(SchemaV3.java:63)
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: 	at water.Iced.toJsonString(Iced.java:77)
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: 	at water.api.RequestServer.serveSchema(RequestServer.java:616)
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: 	at water.api.RequestServer.serve(RequestServer.java:396)
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: 	at water.api.RequestServer.doGeneric(RequestServer.java:245)
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: 	at water.api.RequestServer.doGet(RequestServer.java:197)
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:735)
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:503)
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429)
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: 	at java.lang.Thread.run(Thread.java:745)
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: Caused by: java.io.IOException: invalid constant type: 18
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: 	at javassist.bytecode.ConstPool.readOne(ConstPool.java:1090)
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: 	at javassist.bytecode.ConstPool.read(ConstPool.java:1033)
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: 	at javassist.bytecode.ConstPool.<init>(ConstPool.java:149)
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: 	at javassist.bytecode.ClassFile.read(ClassFile.java:764)
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: 	at javassist.bytecode.ClassFile.<init>(ClassFile.java:108)
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: 	at javassist.CtClassType.getClassFile2(CtClassType.java:190)
+09-06 11:42:41.082 127.0.0.1:54321       9304   #48658-16 ERRR: 	... 42 more
+09-06 11:42:41.083 127.0.0.1:54321       9304   #48658-16 ERRR: Caught exception: 
+09-06 11:42:41.083 127.0.0.1:54321       9304   #48658-16 ERRR: 
+09-06 11:42:41.083 127.0.0.1:54321       9304   #48658-16 ERRR: ERROR MESSAGE:
+09-06 11:42:41.083 127.0.0.1:54321       9304   #48658-16 ERRR: 
+09-06 11:42:41.083 127.0.0.1:54321       9304   #48658-16 ERRR: java.io.IOException: invalid constant type: 18
+09-06 11:42:41.083 127.0.0.1:54321       9304   #48658-16 ERRR: 
+09-06 11:42:41.083 127.0.0.1:54321       9304   #48658-16 ERRR: ; Stacktrace: [java.lang.RuntimeException: java.io.IOException: invalid constant type: 18,     javassist.CtClassType.getClassFile2(CtClassType.java:203),     javassist.CtClassType.subtypeOf(CtClassType.java:303),     javassist.CtClassType.subtypeOf(CtClassType.java:318),     water.Weaver.genIcerClass(Weaver.java:178),     water.Weaver.javassistLoadClass(Weaver.java:141),     water.Weaver.javassistLoadClass(Weaver.java:125),     water.Weaver.genDelegate(Weaver.java:61),     water.TypeMap.getIcer(TypeMap.java:190),     water.TypeMap.getIcer(TypeMap.java:177),     water.Iced.icer(Iced.java:55),     water.Iced.writeJSON(Iced.java:65),     water.api.schemas3.SchemaV3.writeJSON(SchemaV3.java:63),     water.Iced.toJsonString(Iced.java:77),     water.api.RequestServer.serveSchema(RequestServer.java:616),     water.api.RequestServer.serve(RequestServer.java:396),     water.api.RequestServer.doGeneric(RequestServer.java:245),     water.api.RequestServer.doGet(RequestServer.java:197),     javax.servlet.http.HttpServlet.service(HttpServlet.java:735),     javax.servlet.http.HttpServlet.service(HttpServlet.java:848),     org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684),     org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:503),     org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137),     org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557),     org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231),     org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086),     org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429),     org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193),     org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020),     org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135),     org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154),     org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116),     org.eclipse.jetty.server.Server.handle(Server.java:370),     org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494),     org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53),     org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971),     org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033),     org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644),     org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235),     org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72),     org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264),     org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608),     org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543),     java.lang.Thread.run(Thread.java:745), Caused by:java.io.IOException: invalid constant type: 18,     javassist.bytecode.ConstPool.readOne(ConstPool.java:1090),     javassist.bytecode.ConstPool.read(ConstPool.java:1033),     javassist.bytecode.ConstPool.<init>(ConstPool.java:149),     javassist.bytecode.ClassFile.read(ClassFile.java:764),     javassist.bytecode.ClassFile.<init>(ClassFile.java:108),     javassist.CtClassType.getClassFile2(CtClassType.java:190),     javassist.CtClassType.subtypeOf(CtClassType.java:303),     javassist.CtClassType.subtypeOf(CtClassType.java:318),     water.Weaver.genIcerClass(Weaver.java:178),     water.Weaver.javassistLoadClass(Weaver.java:141),     water.Weaver.javassistLoadClass(Weaver.java:125),     water.Weaver.genDelegate(Weaver.java:61),     water.TypeMap.getIcer(TypeMap.java:190),     water.TypeMap.getIcer(TypeMap.java:177),     water.Iced.icer(Iced.java:55),     water.Iced.writeJSON(Iced.java:65),     water.api.schemas3.SchemaV3.writeJSON(SchemaV3.java:63),     water.Iced.toJsonString(Iced.java:77),     water.api.RequestServer.serveSchema(RequestServer.java:616),     water.api.RequestServer.serve(RequestServer.java:396),     water.api.RequestServer.doGeneric(RequestServer.java:245),     water.api.RequestServer.doGet(RequestServer.java:197),     javax.servlet.http.HttpServlet.service(HttpServlet.java:735),     javax.servlet.http.HttpServlet.service(HttpServlet.java:848),     org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684),     org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:503),     org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137),     org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557),     org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231),     org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086),     org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429),     org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193),     org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020),     org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135),     org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154),     org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116),     org.eclipse.jetty.server.Server.handle(Server.java:370),     org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494),     org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53),     org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971),     org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033),     org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644),     org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235),     org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72),     org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264),     org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608),     org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543),     java.lang.Thread.run(Thread.java:745)]
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: Weaver generally only throws if classfiles are not found, e.g. IDE setups running test code from a remote node that is not in the classpath on this node.
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: java.lang.RuntimeException: java.io.IOException: invalid constant type: 18
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: 	at javassist.CtClassType.getClassFile2(CtClassType.java:203)
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: 	at javassist.CtClassType.subtypeOf(CtClassType.java:303)
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: 	at javassist.CtClassType.subtypeOf(CtClassType.java:318)
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: 	at water.Weaver.genIcerClass(Weaver.java:178)
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: 	at water.Weaver.javassistLoadClass(Weaver.java:141)
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: 	at water.Weaver.genDelegate(Weaver.java:61)
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: 	at water.TypeMap.getIcer(TypeMap.java:190)
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: 	at water.TypeMap.getIcer(TypeMap.java:177)
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: 	at water.Iced.icer(Iced.java:55)
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: 	at water.Iced.writeJSON(Iced.java:65)
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: 	at water.api.schemas3.SchemaV3.writeJSON(SchemaV3.java:63)
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: 	at water.Iced.toJsonString(Iced.java:77)
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: 	at water.api.RequestServer.serveSchema(RequestServer.java:616)
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: 	at water.api.RequestServer.serveError(RequestServer.java:645)
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: 	at water.api.RequestServer.serve(RequestServer.java:434)
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: 	at water.api.RequestServer.doGeneric(RequestServer.java:245)
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: 	at water.api.RequestServer.doGet(RequestServer.java:197)
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:735)
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:503)
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429)
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: 	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: 	at java.lang.Thread.run(Thread.java:745)
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: Caused by: java.io.IOException: invalid constant type: 18
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: 	at javassist.bytecode.ConstPool.readOne(ConstPool.java:1090)
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: 	at javassist.bytecode.ConstPool.read(ConstPool.java:1033)
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: 	at javassist.bytecode.ConstPool.<init>(ConstPool.java:149)
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: 	at javassist.bytecode.ClassFile.read(ClassFile.java:764)
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: 	at javassist.bytecode.ClassFile.<init>(ClassFile.java:108)
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: 	at javassist.CtClassType.getClassFile2(CtClassType.java:190)
+09-06 11:42:41.086 127.0.0.1:54321       9304   #48658-16 ERRR: 	... 42 more
